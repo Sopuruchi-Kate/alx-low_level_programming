@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print out data types in C
- * code by Kate
+ * code by Katie
  * Return: 0
 */
 int main(void)
