@@ -1,21 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+
 /**
- * main - print all possible single digits
+ * main - Entry point
  * Return: 0
  */
-int main(void)
-{
-	int k = 0;
 
-	while (k < 10)
+int main(void)
+
+{
+	int k;
+
+	for (k = '0'; k <= '9'; k++)
 	{
-		putchar(48 + k);
-		if (k != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		k++;
+	putchar(k);
+	if (d != '9')
+	{
+		putchar(',');
+		putchar(' ');
 	}
+	}
+	putchar('\n');
+	return (0);
 }
