@@ -10,7 +10,7 @@ int main(void)
 
 	while (k < 10)
 	{
-		putchar(48 + c);
+		putchar(48 + k);
 		if (k != 9)
 		{
 			putchar(',');
@@ -18,3 +18,4 @@ int main(void)
 		}
 		k++;
 	}
+}
