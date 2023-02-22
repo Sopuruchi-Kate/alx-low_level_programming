@@ -4,9 +4,10 @@
  * main - tests the negative or positive function
  * Return: 0
  */
-int main(void)
 
+int main(void)
 {
+	
 	int i;
 
 	i = 0;
