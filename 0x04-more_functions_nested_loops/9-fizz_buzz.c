@@ -11,7 +11,7 @@ int main(void)
 {
 	int k;
 
-	for(k = 1; k <= 100; k++)
+	for (k = 1; k <= 100; k++)
 	{
 		if ((k % 3 == 0) && (k % 5 == 0))
 		{
@@ -35,5 +35,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-	return(0);
+	return (0);
 }
