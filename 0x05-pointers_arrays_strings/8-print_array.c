@@ -21,5 +21,5 @@ void print_array(int *a, int n)
 			printf(", ");
 		}
 	}
-	primtf("\n");
+	printf("\n");
 }
